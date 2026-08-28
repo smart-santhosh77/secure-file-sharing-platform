@@ -1,0 +1,23 @@
+{
+  "name": "secure-file-sharing-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain contracts for secure file sharing",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test",
+    "deploy:ganache": "truffle migrate --network ganache",
+    "ganache": "ganache-cli --host 0.0.0.0 --port 8545"
+  },
+  "dependencies": {
+    "web3": "^1.10.0",
+    "@truffle/contract": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.1.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.0",
+    "ganache-cli": "^6.12.2",
+    "solidity-coverage": "^0.8.0"
+  }
+}
